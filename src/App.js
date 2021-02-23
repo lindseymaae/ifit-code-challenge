@@ -36,7 +36,8 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 300,
     fontFamily: 'openSans',
-    margin: '10px'
+    margin: '10px',
+    minHeight: '300px'
   },
 
 });
@@ -75,7 +76,7 @@ export default function ImgMediaCard() {
             className="small-image" />
 
         </CardContent>
-        <CardContent className="flex">
+        <CardContent className="flex padding-top-0">
           <TimerIcon className="margin-right" />
           <Typography className="margin-right">
             30:53
@@ -137,7 +138,7 @@ export default function ImgMediaCard() {
             className="small-image" />
 
         </CardContent>
-        <CardContent className="flex">
+        <CardContent className="flex padding-top-0">
           <TimerIcon className="margin-right" />
           <Typography className="margin-right">
             44:13
@@ -196,7 +197,7 @@ export default function ImgMediaCard() {
             className="small-image" />
 
         </CardContent>
-        <CardContent className="flex">
+        <CardContent className="flex padding-top-0">
           <TimerIcon className="margin-right" />
           <Typography className="margin-right">
             36:22
@@ -257,7 +258,7 @@ export default function ImgMediaCard() {
             className="small-image" />
 
         </CardContent>
-        <CardContent className="flex">
+        <CardContent className="flex padding-top-0">
           <TimerIcon className="margin-right" />
           <Typography className="margin-right">
             22:22
